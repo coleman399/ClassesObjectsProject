@@ -24,6 +24,8 @@ customer.add_item_to_shopping_cart(product1)
 customer.add_item_to_shopping_cart(product2)
 customer.add_item_to_shopping_cart(product3)
 
+print(customer.add_prices())
+
 customer.show_items_in_shopping_cart()
 
 print(f"Total number of products: {customer.shopping_cart.number_of_products()}")
@@ -33,3 +35,5 @@ customer.shopping_cart.empty_items_in_cart()
 print(f"Item in shopping cart: {customer.show_items_in_shopping_cart()}")
 
 print(f"Total number of products: {shopping_cart.number_of_products()}")
+
+print(customer.add_prices())

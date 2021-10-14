@@ -1,7 +1,10 @@
 class ShoppingCart:
     def __init__(self):
         self.shopping_cart = []
-    
+
+    def price_of_product(self):
+        return self.shopping_cart[1]
+        
     def number_of_products(self):
         self.total_products = len(self.shopping_cart)
         return self.total_products
@@ -11,4 +14,7 @@ class ShoppingCart:
 
     def empty_items_in_cart(self):
         self.shopping_cart.clear()
+
+
+        
 
